@@ -9,7 +9,7 @@ $('.entry-title').each(function(i, el){
   }
 })
 }
-var throttled = _.throttle(callback, 100);
+var throttled = _.throttle(callback, 500);
 var observer = new MutationObserver(throttled);
 // 开始观察已配置突变的目标节点
 observer.observe(targetNode, config);
