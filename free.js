@@ -1,4 +1,4 @@
-var targetNode = $('#content')[0];
+var targetNode = $('body')[0];
 var config = { attributes: true, childList: true, subtree: true };
 var callback = function() {
 $('.entry-title').each(function(i, el){
